@@ -1,5 +1,5 @@
 # Instal dash
-pip install dash
+#pip install dash
 
 from dash import Dash, html
 
@@ -9,4 +9,4 @@ server = app.server
 app.layout = html.H1("Mi Dashboard")
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
